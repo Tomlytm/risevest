@@ -22,7 +22,7 @@ function JoinCommunity() {
         </p>
       </div>
       <div className="community-img">
-        <img src="/images/community.svg" alt="image" />
+        <img src="/images/community.svg" alt="imagrise" />
       </div>
       <div className="community-img1">
         <img src="/images/community1.svg" alt="image" />
