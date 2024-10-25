@@ -106,7 +106,6 @@ body {
   width: 100%;
   z-index: 3;
   animation: slideInFromLeft 1.2s ease-out;
-
 }
 .hero-text1 {
   max-width: 460px;
@@ -475,8 +474,6 @@ body {
   .mobile-menu {
     display: inline;
   }
-  
-
 
   /* Hero Section */
   .hero {
@@ -508,15 +505,62 @@ body {
     width: 100%;
     text-align: center;
   }
+  /* ---------------------------------------- */
+
+  .hero-text {
+    max-width: 460px;
+    width: 100%;
+    z-index: 3;
+    animation: slideInFromLeft 1.2s ease-out;
+  }
+  .hero-text1 {
+    z-index: 3;
+  }
+
+  .hero-img {
+    z-index: 5;
+  }
+  .ellipse1 {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 7%;
+  }
 
   .ellipse1,
   .ellipse2,
   .ellipse3,
   .ellipse4,
   .ellipse5 {
-    display: none;
+    animation: fadeIn 2s ease-in-out infinite alternate;
   }
 
+  .ellipse2 {
+    position: absolute;
+    z-index: 1;
+    top: 6%;
+    right: 40%;
+  }
+  .ellipse3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 20%;
+    left: 14%;
+  }
+  .ellipse4 {
+    position: absolute;
+    z-index: 1;
+    bottom: 35%;
+    left: 5%;
+  }
+  .ellipse5 {
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    right: 4%;
+  }
+
+  /* -------------------------------------- */
   /* Main Content */
   .main-content {
     flex-direction: column-reverse;
@@ -564,7 +608,7 @@ body {
 
   /* Testimonial Section */
   .testimonial-card {
-  box-shadow: 0px 12px 24px 0px #40bbc326;
+    box-shadow: 0px 12px 24px 0px #40bbc326;
   }
   .testimonial-cards .testimonial-card:nth-last-child(-n + 2) {
     display: none;
@@ -594,7 +638,7 @@ body {
   .download-app {
     padding: 0 50px;
   }
-  
+
   .download-container {
     flex-direction: column;
     padding: 20px 20px 0 20px;
@@ -709,7 +753,7 @@ body {
   .setgoals1 {
     display: none;
   }
-  
+
   .asset-card {
     width: 350px;
   }
